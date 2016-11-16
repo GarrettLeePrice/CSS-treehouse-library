@@ -22,6 +22,11 @@ hr {
   width: 95%;
 }
 
+.tileHead h5 {
+  float: right;
+  padding: 12px 15px 0 0;
+}
+
 .pipe {
   margin-left: 34px;
   font-size: 2em;
@@ -70,9 +75,23 @@ hr {
   padding: 0 20px 0 20px;
 }
 
+.tile p {
+  margin-top: 15px;
+}
+
 .tileHead {
   height: 60px;
   background-color: #2c9676;
   width: 100%;
   border-radius: 5px 5px 0 0;
+}
+
+.glyphicon-book {
+  padding-top: 17px;
+  transform: scale(1.6);
+}
+
+.glyphicon-record {
+  padding-top: 15px;
+  transform: scale(1.3);
 }
