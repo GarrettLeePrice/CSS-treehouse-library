@@ -39,6 +39,7 @@ button {
 
 #javaBtn {
   padding: 7px 15px 7px 15px;
+  color: #2c9676;
 
 }
 
@@ -132,12 +133,7 @@ button {
   transform: scale(1.3);
 }
 
-//second class tile : Python
-// body:nth-child(3) {
-//   float: right;
-//   border: 5px solid tomato;
-//
-// }
+//inline-block tiles//
 
 .tile1 {
   display: inline-block;
@@ -147,4 +143,35 @@ button {
 .tile2 {
   display: inline-block;
   margin-bottom: 20px;
+}
+
+
+.tile3 {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.tile4 {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+// tile color changes//
+
+.python {
+  background-color: #f092b0;
+}
+
+#pythonBtn {
+  color: #f092b0;
+  padding: 7px 15px 7px 15px;
+}
+
+#wpBtn {
+  color: #838CC7;
+  padding: 7px 15px 7px 15px;
+}
+
+.wordPress {
+  background-color: #838CC7;
 }
