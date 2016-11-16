@@ -28,13 +28,18 @@ button {
   padding: 7px;
 }
  span {
-   color: gray;
+   color: lightgray;
  }
+
 
 .tileHead h5 {
   float: right;
   padding: 12px 15px 0 0;
   color: white;
+}
+
+.icons h4 {
+  color: lightgrey;
 }
 
 #javaBtn {
@@ -167,11 +172,11 @@ button {
   padding: 7px 15px 7px 15px;
 }
 
+.wordPress {
+  background-color: #838CC7;
+}
+
 #wpBtn {
   color: #838CC7;
   padding: 7px 15px 7px 15px;
-}
-
-.wordPress {
-  background-color: #838CC7;
 }
