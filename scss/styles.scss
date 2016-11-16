@@ -143,6 +143,7 @@ button {
 .tile1 {
   display: inline-block;
   margin-bottom: 20px;
+  position: relative;
 }
 
 .tile2 {
@@ -179,4 +180,129 @@ button {
 #wpBtn {
   color: #838CC7;
   padding: 7px 15px 7px 15px;
+}
+// pop-up window hover//
+
+.pop-up {
+  position: absolute;
+  left:48%;
+  bottom: 74%;
+  display: none;
+}
+
+.pop-up h5 {
+  color: darkslategray;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+.pop-up img {
+  position: absolute;
+  width: 235px;
+}
+
+.pop-up p {
+  position: absolute;
+  width: 180px;
+  margin-left: 30px;
+  line-height: 15px;
+  margin-top: 50px;
+}
+
+#javaplay:hover + .pop-up {
+  display:block;
+}
+
+.pop-up2 h5 {
+  color: darkslategray;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+.pop-up2 {
+  position: absolute;
+  left:64.5%;
+  bottom: 79.5%;
+  display: none;
+}
+
+.pop-up2 img {
+  position: absolute;
+  width: 235px;
+}
+
+.pop-up2 p {
+  position: absolute;
+  width: 180px;
+  margin-left: 30px;
+  line-height: 15px;
+  margin-top: 50px;
+}
+
+#pythonHover:hover + .pop-up2 {
+  display:block;
+}
+
+.pop-up3 h5 {
+  color: darkslategray;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+.pop-up3 {
+  position: absolute;
+  left:21%;
+  bottom: 43%;
+  display: none;
+}
+
+.pop-up3 img {
+  position: absolute;
+  width: 235px;
+}
+
+.pop-up3 p {
+  position: absolute;
+  width: 180px;
+  margin-left: 30px;
+  line-height: 15px;
+  margin-top: 50px;
+}
+
+#wpHover:hover + .pop-up3 {
+  display:block;
+}
+
+.pop-up4 h5 {
+  color: darkslategray;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+.pop-up4 {
+  position: absolute;
+  left:64.5%;
+  bottom: 43%;
+  display: none;
+}
+
+.pop-up4 img {
+  position: absolute;
+  width: 235px;
+}
+
+.pop-up4 p {
+  position: absolute;
+  width: 180px;
+  margin-left: 30px;
+  line-height: 15px;
+  margin-top: 50px;
+}
+
+#javaFxHover:hover + .pop-up4 {
+  display:block;
 }
