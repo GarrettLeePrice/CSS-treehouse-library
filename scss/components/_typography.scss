@@ -1,11 +1,11 @@
 .tileHead h5 {
   float: right;
   padding: 12px 15px 0 0;
-  color: white;
+  color: $white;
 }
 
 .icons h4 {
-  color: lightgrey;
+  color: gray;
 }
 
 .icons h4 {
@@ -17,7 +17,7 @@
 }
 
 .tile h3 {
-  color: darkslategray;
+  color: $tile-header;
 }
 
 .tile p {
@@ -25,7 +25,7 @@
 }
 
 .pop-up h5 {
-  color: darkslategray;
+  color: $tile-header;
   position: absolute;
   margin-left: 50px;
   margin-top: 15px;
@@ -40,7 +40,7 @@
 }
 
 .pop-up2 h5 {
-  color: darkslategray;
+  color: $tile-header;
   position: absolute;
   margin-left: 50px;
   margin-top: 15px;
@@ -56,7 +56,7 @@
 
 
 .pop-up3 h5 {
-  color: darkslategray;
+  color: $tile-header;
   position: absolute;
   margin-left: 50px;
   margin-top: 15px;
@@ -71,7 +71,7 @@
 }
 
 .pop-up4 h5 {
-  color: darkslategray;
+  color: $tile-header;
   position: absolute;
   margin-left: 50px;
   margin-top: 15px;

@@ -1,22 +1,21 @@
 #javaBtn {
   padding: 7px 15px 7px 15px;
-  color: #2c9676;
+  color: $java;
 
 }
 
 .circleBtn  {
-  border-radius: 100px;
   float: right;
   margin-right: 5px;
 
 }
 
 #pythonBtn {
-  color: #f092b0;
+  color: $python;
   padding: 7px 15px 7px 15px;
 }
 
 #wpBtn {
-  color: #838CC7;
+  color: $wp;
   padding: 7px 15px 7px 15px;
 }

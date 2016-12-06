@@ -1,0 +1,34 @@
+// Descriptive Color Names
+
+$white: white;
+$light-gray:  #edeff0;
+$gray: gray;
+$green: #2c9676;
+$pink: #f092b0;
+$lavender: #838CC7;
+$dark-gray: darkslategray;
+
+// Functional Color Names
+
+$text-color: $gray;
+$bdy-back: $light-gray;
+$border: $light-gray;
+$glyph-span: $light-gray;
+$btn-background: $white;
+$glyph-color: $white;
+$tile-header: $dark-gray;
+$tile-back: $white;
+$java: $green;
+$python: $pink;
+$wp: $lavender;
+
+
+//Font stacks
+
+$stack-dosis: 'Dosis', Helvetica, sans-serif;
+
+//Border radius
+
+$br-btn: 20px;
+$br-tile: 5px;
+$br-tile-head: 5px 5px 0 0;

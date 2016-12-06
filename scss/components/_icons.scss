@@ -25,10 +25,11 @@
 .glyphicon-book {
   padding-top: 17px;
   transform: scale(1.6);
-  color: white;
+  color: $glyph-color;
 }
 
 .glyphicon-record {
   padding-top: 15px;
   transform: scale(1.3);
+  color: $glyph-color;
 }

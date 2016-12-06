@@ -7,28 +7,25 @@
 }
 
 
-h1,h2,h3,h4,h5,h6,p,ul,li,button {
-  font-family: 'Dosis', sans-serif;
-  color: grey;
-}
-
 body {
-  background: #edeff0;
+  background: $bdy-back;
+  font-family: $stack-dosis;
+  color: $gray;
 }
 
 hr {
-  border: 1px solid lightgray;
+  border: 1px solid $border;
   width: 95%;
 }
 
 button {
-  background-color: white;
-  border: 3px solid lightgray;
-  border-radius: 20px;
+  background-color: $btn-background;
+  border: 3px solid $border;
+  border-radius: $br-btn;
   padding: 7px;
 }
  span {
-   color: lightgray;
+   color: $glyph-span;
  }
 
  #javaplay:hover + .pop-up {

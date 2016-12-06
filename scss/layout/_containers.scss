@@ -15,8 +15,8 @@
 .tile {
   width: 500px;
   height: 290px;
-  background-color: #fff;
-  border-radius: 5px;
+  background-color: $tile-back;
+  border-radius: $br-tile;
   margin-left: 27px;
 }
 
@@ -25,9 +25,9 @@
 
 .tileHead {
   height: 60px;
-  background-color: #2c9676;
+  background-color: $java;
   width: 100%;
-  border-radius: 5px 5px 0 0;
+  border-radius: $br-tile-head;
 }
 
 
@@ -59,11 +59,11 @@
 // tile color changes//
 
 .python {
-  background-color: #f092b0;
+  background-color: $python;
 }
 
 .wordPress {
-  background-color: #838CC7;
+  background-color: $wp;
 }
 
 
