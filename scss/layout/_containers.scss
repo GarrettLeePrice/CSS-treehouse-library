@@ -1,0 +1,122 @@
+
+.tileFoot {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.tileFoot:last-child {
+  margin-right: 15px;
+}
+
+
+
+
+
+.tile {
+  width: 500px;
+  height: 290px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-left: 27px;
+}
+
+
+
+
+.tileHead {
+  height: 60px;
+  background-color: #2c9676;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+
+
+//inline-block tiles//
+
+.tile1 {
+  display: inline-block;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.tile2 {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+
+.tile3 {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.tile4 {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+// tile color changes//
+
+.python {
+  background-color: #f092b0;
+}
+
+.wordPress {
+  background-color: #838CC7;
+}
+
+
+// pop-up window hover//
+
+.pop-up {
+  position: absolute;
+  left:48%;
+  bottom: 74%;
+  display: none;
+}
+
+
+
+.pop-up img {
+  position: absolute;
+  width: 235px;
+}
+
+
+.pop-up2 {
+  position: absolute;
+  left:64.5%;
+  bottom: 79.5%;
+  display: none;
+}
+
+.pop-up2 img {
+  position: absolute;
+  width: 235px;
+}
+
+.pop-up3 {
+  position: absolute;
+  left:21%;
+  bottom: 43%;
+  display: none;
+}
+
+.pop-up3 img {
+  position: absolute;
+  width: 235px;
+}
+
+
+.pop-up4 {
+  position: absolute;
+  left:64.5%;
+  bottom: 43%;
+  display: none;
+}
+
+.pop-up4 img {
+  position: absolute;
+  width: 235px;
+}

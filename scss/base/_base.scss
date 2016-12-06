@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
+h1,h2,h3,h4,h5,h6,p,ul,li,button {
+  font-family: 'Dosis', sans-serif;
+  color: grey;
+}
+
+body {
+  background: #edeff0;
+}
+
+hr {
+  border: 1px solid lightgray;
+  width: 95%;
+}
+
+button {
+  background-color: white;
+  border: 3px solid lightgray;
+  border-radius: 20px;
+  padding: 7px;
+}
+ span {
+   color: lightgray;
+ }
+
+ #javaplay:hover + .pop-up {
+   display:block;
+ }
+
+
+
+
+
+ #pythonHover:hover + .pop-up2 {
+   display:block;
+ }
+
+
+
+
+
+
+ #wpHover:hover + .pop-up3 {
+   display:block;
+ }
+
+
+
+
+
+ #javaFxHover:hover + .pop-up4 {
+   display:block;
+ }
