@@ -1,0 +1,19 @@
+@mixin pop-up-tile {
+  position: absolute;
+  display: none;
+}
+
+@mixin pop-up-hover {
+  display: block;
+}
+
+@mixin pop-up-img {
+  position: absolute;
+  width: 235px;
+}
+
+@mixin tile-display {
+  display: inline-block;
+  margin-bottom: 20px;
+  position: relative;
+}

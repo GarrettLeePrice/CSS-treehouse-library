@@ -29,30 +29,17 @@ button {
  }
 
  #javaplay:hover + .pop-up {
-   display:block;
+   @include pop-up-hover;
  }
-
-
-
-
 
  #pythonHover:hover + .pop-up2 {
-   display:block;
+   @include pop-up-hover;
  }
-
-
-
-
-
 
  #wpHover:hover + .pop-up3 {
-   display:block;
+   @include pop-up-hover;
  }
 
-
-
-
-
  #javaFxHover:hover + .pop-up4 {
-   display:block;
+   @include pop-up-hover;
  }

@@ -70,15 +70,18 @@ span {
 
 .tile2 {
   display: inline-block;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  position: relative; }
 
 .tile3 {
   display: inline-block;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  position: relative; }
 
 .tile4 {
   display: inline-block;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  position: relative; }
 
 .python {
   background-color: #f092b0; }
@@ -86,45 +89,28 @@ span {
 .wordPress {
   background-color: #838CC7; }
 
-.pop-up {
+[class*='pop-up'] {
   position: absolute;
-  left: 48%;
-  bottom: 74%;
   display: none; }
+  [class*='pop-up'] img {
+    position: absolute;
+    width: 235px; }
 
-.pop-up img {
-  position: absolute;
-  width: 235px; }
+.pop-up {
+  left: 48%;
+  bottom: 74%; }
 
 .pop-up2 {
-  position: absolute;
-  left: 64.5%;
-  bottom: 79.5%;
-  display: none; }
-
-.pop-up2 img {
-  position: absolute;
-  width: 235px; }
+  left: 48.5%;
+  bottom: 72.5%; }
 
 .pop-up3 {
-  position: absolute;
-  left: 21%;
-  bottom: 43%;
-  display: none; }
-
-.pop-up3 img {
-  position: absolute;
-  width: 235px; }
+  left: 49%;
+  bottom: 74%; }
 
 .pop-up4 {
-  position: absolute;
-  left: 64.5%;
-  bottom: 43%;
-  display: none; }
-
-.pop-up4 img {
-  position: absolute;
-  width: 235px; }
+  left: 48.5%;
+  bottom: 75%; }
 
 .tileHead h5 {
   float: right;
@@ -231,6 +217,8 @@ span {
 .icons {
   float: right;
   padding: 15px 15px 0 0; }
+  .icons span {
+    color: gray; }
 
 .glyphicon-book {
   padding-top: 17px;
