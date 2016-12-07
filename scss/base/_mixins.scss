@@ -12,8 +12,46 @@
   width: 235px;
 }
 
-@mixin tile-display {
+%tileDisplay {
   display: inline-block;
   margin-bottom: 20px;
   position: relative;
+}
+
+%tile {
+  width: 500px;
+  height: 290px;
+  background-color: $tile-back;
+  border-radius: $br-tile;
+  margin-left: 27px;
+  .tileHead {
+    height: 60px;
+    width: 100%;
+    border-radius: $br-tile-head;
+  }
+  .tileFoot {
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  .tileFoot:last-child {
+    margin-right: 15px;
+  }
+}
+
+@mixin tile-back($color) {
+  background-color: $color
+}
+
+%button {
+  background-color: $btn-background;
+  border: 3px solid $border;
+  border-radius: $br-btn;
+  padding: 7px;
+}
+
+@mixin glyph($transform: null, $padding-top:null, $color:$glyph-color) {
+  transform: $transform;
+  padding-top: $padding-top;
+  color: $color;
 }

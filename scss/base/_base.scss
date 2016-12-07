@@ -19,10 +19,7 @@ hr {
 }
 
 button {
-  background-color: $btn-background;
-  border: 3px solid $border;
-  border-radius: $br-btn;
-  padding: 7px;
+  @extend %button;
 }
  span {
    color: $glyph-span;
